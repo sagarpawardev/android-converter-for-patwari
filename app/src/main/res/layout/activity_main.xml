@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="5dp"
+    android:paddingEnd="5dp"
+    android:paddingTop="10dp"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textHectare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/hectare"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etHectare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/zero"
+                android:inputType="numberDecimal"
+                android:padding="10dp"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="15dp">
+            <TextView
+                android:id="@+id/textAcre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/acre"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etAcre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/zero"
+                android:inputType="numberDecimal"
+                android:padding="10dp"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/textSqMeter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="10dp"
+                android:text="@string/sq_meter"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etSqMeter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/zero"
+                android:inputType="numberDecimal"
+                android:padding="10dp"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/textSpace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text=""
+                android:textSize="20sp" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/textSqMeterA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/a"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/etSqMeterA"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:inputType="numberDecimal"
+                    android:hint="@string/zero">
+                </EditText>
+
+                <TextView
+                    android:id="@+id/textSqMeterB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/b"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textSqMeterBVal"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:hint="@string/zero">
+                </TextView>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/textSqFeet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="10dp"
+                android:text="@string/sq_feet"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etSqFeet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/zero"
+                android:inputType="numberDecimal"
+                android:padding="10dp"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/textSqFeetSpace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text=""
+                android:textSize="20sp" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/textSqFeetA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/a"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/etSqFeetA"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:inputType="numberDecimal"
+                    android:hint="@string/zero">
+                </EditText>
+
+                <TextView
+                    android:id="@+id/textSqFeetB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/b"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textSqFeetBVal"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:hint="@string/zero">
+                </TextView>
+            </LinearLayout>
+
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>

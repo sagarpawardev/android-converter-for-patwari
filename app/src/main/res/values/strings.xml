@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Converter</string>
+    <string name="hectare">Hectare</string>
+    <string name="zero">0</string>
+    <string name="acre">Acre</string>
+    <string name="sq_meter">Sq. Meter</string>
+    <string name="sq_feet">Sq. Feet</string>
+    <string name="a">a:</string>
+    <string name="b">b:</string>
+</resources>
